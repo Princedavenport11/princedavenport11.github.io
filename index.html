@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Prince's Palace</title>
+        <style>
+            body {
+                background: black;
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(182, 182, 99);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                border-radius: 20px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: white;
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
+    </head>
+    
+    <body>
+        <!-- All content goes here -->
+        <div id="all-contents"> 
+            <nav>
+                <h1>Prince's Website</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                      <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                      <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <main>
+                <!-- Sidebar section -->
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://th.bing.com/th/id/OIP.zcnDUll46Hi-kRW6djioDgHaEK?w=288&h=180&c=7&r=0&o=5&pid=1.7">
+                </div>
+
+                <!-- Content section -->
+                <div class="content">
+                    <h2>Prince Davenport</h2>
+                    <p>NPTCC Student</p>
+                    <!-- Interests section -->
+                    <div id="interests">
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>Basketball</li>
+                            <li>Football</li>
+                            <li>Comedy</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
